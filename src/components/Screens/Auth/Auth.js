@@ -11,7 +11,7 @@ const PinInput = ({navigation}) => {
   const [codeValid, setCodeValid] = useState(true);
   return (
     <View style={styles.content}>
-      <Svg xml={backArrow} width="24" height="24" />
+      <Svg xml={backArrow} width="24" height="24" style={styles.arrow} />
       <Title>
         Введите код, который мы отправили на номер{'\n'}+7 (903) 119 38 28
       </Title>
@@ -32,6 +32,9 @@ const styles = StyleSheet.create({
     paddingVertical: 24,
     paddingHorizontal: 15,
     backgroundColor: '#fff',
+  },
+  arrow: {
+    marginBottom: 36,
   },
 });
 
