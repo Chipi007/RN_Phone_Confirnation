@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
+  <item>
+    <!--<color android:color="#2196F3"/>-->
+    <shape android:shape="rectangle">
+      <gradient
+        android:startColor="#FFCEC4"
+        android:endColor="#310624"
+        android:angle="90"
+        />
+    </shape>
+  </item>
+  <item
+    android:width="80px"
+    android:height="80px"
+    android:drawable="@mipmap/splash_icon"
+    android:gravity="center" />
+</layer-list>
